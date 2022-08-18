@@ -1,0 +1,429 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "Untitled3.ipynb",
+      "provenance": [],
+      "authorship_tag": "ABX9TyM6VrvKa2hYpvfuldUqJEbF",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Surya-Thotamsetty/KhushbooGoel01/blob/main/python%20day1\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 17,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "1P4WS6oe56P-",
+        "outputId": "1af1604c-b89b-42cd-e342-b2c45fd98004"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "you know what's more amazing than a butter naan?\n",
+            "  \n",
+            "more butter naan's more butter naan's \n",
+            "you know what's more amazing than a butter naan?\n",
+            "more butter naan's\n"
+          ]
+        }
+      ],
+      "source": [
+        "surya=print(\"you know what's more amazing than a butter naan?\\n  \")\n",
+        "tarun=print(\"more butter naan's \"*2)\n",
+        "\n",
+        "surya=\"you know what's more amazing than a butter naan?\\n\"\n",
+        "tarun=\"more butter naan's\"\n",
+        "print(surya+tarun)"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "one_cheddy=int(250)\n",
+        "one_pant=int(900)\n",
+        "print(one_cheddy*3+one_pant*7)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "fPcvZYRZ9jez",
+        "outputId": "9cc48b37-c49a-4900-bc9d-c847b97ec9ae"
+      },
+      "execution_count": 19,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "7050\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "fname=\"surya\"\n",
+        "lname=\"setty\"\n",
+        "print(f\"{fname} 's full name is {fname} thotam {lname}\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "schAemyh-MPI",
+        "outputId": "1a228d6b-ad41-41a4-9ecc-864d52f7d061"
+      },
+      "execution_count": 24,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "surya 's full name is surya thotam setty\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "name=input()\n",
+        "ffood=input()\n",
+        "print(f\"{name} 's fav food is {ffood}\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "VBTCFaAB_Y2R",
+        "outputId": "8c83a7a9-71a3-4d8c-8db3-6c034f76b879"
+      },
+      "execution_count": 25,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "surya\n",
+            "butter naan and baby corn curry\n",
+            "surya 's fav food is butter naan and baby corn curry\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "name=input(\"what's ur name \")\n",
+        "bday=int(input(\"enter your birth year \"))\n",
+        "cyear=int(input(\"enter the current year \"))\n",
+        "age=cyear-bday\n",
+        "print(age )\n",
+        "\n",
+        "name1=input(\"what's your frnd name\")\n",
+        "byear=int(input(\"when were u born\"))\n",
+        "cuyear=int(input(\"what year is this\"))\n",
+        "age2=cuyear-byear\n",
+        "print(age2)\n",
+        "\n",
+        "agediff=age2-age\n",
+        "print(\"the age difference btw the two is\", agediff)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "XIHZFT2BAT3J",
+        "outputId": "f568ecee-3abf-48d6-f192-cfd35a65bfa2"
+      },
+      "execution_count": 38,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "what's ur name surya\n",
+            "enter your birth year 2022\n",
+            "enter the current year 2032\n",
+            "10\n",
+            "what's your frnd nametarun\n",
+            "when were u born2020\n",
+            "what year is this2032\n",
+            "12\n",
+            "the age difference btw the two is 2\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#1km = 1000m\n",
+        "x=int(input(\"enter no of km \"))\n",
+        "m=x*1000\n",
+        "print(x,\"km is \",m,\"meters\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "_ajbJuKeE_V7",
+        "outputId": "65a26cce-93f2-49ea-9cff-f2e02a13c3bb"
+      },
+      "execution_count": 44,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "enter no of km 3\n",
+            "3 km is  3000 meters\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "intro='''\n",
+        "name = praju\n",
+        "age= 20\n",
+        "hobbies= to fascinate students'''\n",
+        "print(intro)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "GE2V800pIZu5",
+        "outputId": "83aa974c-2386-4120-fb7c-f75ef83315f8"
+      },
+      "execution_count": 46,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "\n",
+            "name = praju\n",
+            "age= 20\n",
+            "hobbies= to fascinate students\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "name=\"magar govinda surya\"\n",
+        "print(name[:])\n",
+        "print(name[:3])\n",
+        "print(name[3:9])\n",
+        "print(name[-1:])\n",
+        "print(name[0:3])"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "Q9Hf4-LJKRqi",
+        "outputId": "ac51bee0-0122-43c6-a416-559ad3fec874"
+      },
+      "execution_count": 52,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "magar govinda surya\n",
+            "mag\n",
+            "ar gov\n",
+            "a\n",
+            "mag\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#formated text f\"{}\"\"\n",
+        "a=int(input())\n",
+        "b=a*2.204\n",
+        "print(f\"{a} kg is {b} lbs\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "EYAKjqLsL3mK",
+        "outputId": "52b44bee-425e-4bb5-b2af-099a3f6f9881"
+      },
+      "execution_count": 53,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "72\n",
+            "72 kg is 158.68800000000002 lbs\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#len function this gives the size of the string. And .upper converts lower to upper.\n",
+        "essay=('''Note : F-strings are faster than the two most commonly used string formatting mechanisms, which are % formatting and str.format(). \n",
+        "  \n",
+        "Let’s see few error examples, which might occur while using f-string :\n",
+        "Code #3 : Demonstrating Syntax error. ''')\n",
+        "print(len(essay))\n",
+        "print(essay.upper())"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "TtUEQODk2l8p",
+        "outputId": "0d4a8431-9cfd-4921-921e-c23297c335b1"
+      },
+      "execution_count": 2,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "244\n",
+            "NOTE : F-STRINGS ARE FASTER THAN THE TWO MOST COMMONLY USED STRING FORMATTING MECHANISMS, WHICH ARE % FORMATTING AND STR.FORMAT(). \n",
+            "  \n",
+            "LET’S SEE FEW ERROR EXAMPLES, WHICH MIGHT OCCUR WHILE USING F-STRING :\n",
+            "CODE #3 : DEMONSTRATING SYNTAX ERROR. \n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#find function and it is case sensitive if the given letter is not found it prints -1\n",
+        "name=(\"kdhsigkgikgsegvberiyy\")\n",
+        "print(name.find('a'))\n",
+        "study=(\"i love studying\")\n",
+        "print(study.find(\"love\"))"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "8xGcaDU73rvE",
+        "outputId": "7661c3f1-a054-4b0d-97e7-f3baf61875ad"
+      },
+      "execution_count": 7,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "-1\n",
+            "2\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#replace function and it is case sensitive like find function and if the letter is changed in its sensitivity it doenst replace anything\n",
+        "a=(\"gitam tho sadhidham \")\n",
+        "b=(\"emundhani sadhincheki\")\n",
+        "c=a+b\n",
+        "print(c)\n",
+        "print(c.replace(\"sadhincheki\",\"akkada\"))\n",
+        "print(c.replace(\"Sadhincheki\",\"akkada\"))"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "J_hiWvYs4HfX",
+        "outputId": "c96335e2-4d90-4081-858e-878b775f1c8e"
+      },
+      "execution_count": 10,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "gitam tho sadhidham emundhani sadhincheki\n",
+            "gitam tho sadhidham emundhani akkada\n",
+            "gitam tho sadhidham emundhani sadhincheki\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#in function is used to find if a string is present in particular sentence. It is a boolean function and gives output as either true or false\n",
+        "intro=input(\"\")\n",
+        "print(\"a**hole\" in intro)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "YO3WMuO85QuI",
+        "outputId": "8211b5b0-cba9-414f-866c-b8f95f5b3518"
+      },
+      "execution_count": 11,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "this is surya of cse iot and tarun is an asshole\n",
+            "False\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        ""
+      ],
+      "metadata": {
+        "id": "HSVx2lP17c_7"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
